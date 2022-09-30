@@ -7,17 +7,20 @@ import Formt from './components/Formt';
 
 
 function App() {
+
+
   return (
     <div className="App">
       <Routes>
         <Route path='/' element={<Form />}></Route>
         <Route path='/two' element={<Formt />}></Route>
-        <Route path='/vald' element={<Fnal />}></Route>
+        <Route path='/vald' element={<Fnal />} ></Route>
 
 
       </Routes>
     </div>
   );
+
 }
 
 export default App;

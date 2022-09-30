@@ -10,7 +10,7 @@ const Form = () => {
     const navigate = useNavigate();
 
     const onSubmit = data => {
-        navigate('/two');
+        navigate('/two', { state: data });
     };
     return (
         <div className='container'>

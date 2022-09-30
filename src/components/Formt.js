@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Form.css'
 
 const Formt = () => {
@@ -8,13 +8,15 @@ const Formt = () => {
     const onSubmit = data => console.log(data);
 
     const navigate = useNavigate();
+    const { state } = useLocation();
+
     const navigateff = () => {
-        navigate('/vald');
+
+        navigate('/vald', { state: state });
     };
     const navigateh = () => {
         navigate('/');
     };
-    console.log(errors);
     return (
         <div className='container'>
             <form onSubmit={handleSubmit(onSubmit)}>
