@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eceffc;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 30px 30px 30px 30px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.form-input-material {
+    --input-default-border-color: white;
+    --input-border-bottom-color: white;
+}
+
+input {
+    width: 100%;
+    color: black;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+        0 1px 1px rgba(128, 128, 128, 0.155),
+        0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+        0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+        0 12px 12px rgba(128, 128, 128, 0.35);
+
+
+}
+
+h1 {
+    margin: 0 0 24px 0;
+}
+
+.form-input-material {
+    margin: 12px 0;
+}
+
+.btn {
+    width: 100%;
+    margin: 18px 0 9px 0;
+}
+
+.form-input {
+    justify-content: left;
+    padding-left: 0px;
+}
+
+.err {
+    font-size: small;
+}
+
+.lbl1 {
+    margin-right: 180px;
+}
+
+.lbl {
+    margin-right: 165px;
+}
+
+.lbl3 {
+    margin-right: 220px;
+}
+
+.lbl4 {
+    margin-right: 263px;
+}
+
+.lbl5 {
+    margin-right: 233px;
+}
+
+.lbl6 {
+    margin-right: 230px;
+}
+
+.err {
+    color: yellow;
+}
+
+.btn1 {
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.btn2 {
+    margin-left: 25px;
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
